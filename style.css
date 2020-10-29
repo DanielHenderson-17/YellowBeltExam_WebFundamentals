@@ -1,0 +1,204 @@
+body,
+html {
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 970px;
+  margin: 0 auto;
+  background-color: #1a1a1a;
+  box-shadow: 0px 0px 5px 5px black;
+  color: white;
+}
+
+.yellow-header {
+  margin: 0;
+  color: rgb(255, 145, 0);
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+
+.logo {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo span {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: gainsboro;
+  font-weight: bold;
+}
+
+nav {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(149, 149, 149, 1) 100%
+  );
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a {
+  padding: 10px 12px;
+  color: rgb(161, 161, 161);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+nav span {
+  color: #3a3a3a;
+  font-weight: lighter;
+  font-size: 30px;
+  text-shadow: 0.5px 0.5px #797979;
+  margin-bottom: 6px;
+}
+
+.banner img {
+  width: 100%;
+  border-bottom: 5px solid rgba(128, 128, 128, 0.466);
+}
+
+.perks {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.perks article {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+}
+
+.perks img {
+  display: inline-block;
+  object-fit: contain;
+  object-position: top;
+}
+
+.perks-content {
+  padding-left: 10px;
+}
+
+.perks-content h3 {
+  font-size: 25px;
+}
+
+.perks-content p {
+  margin-block-start: 5px;
+}
+
+.buy-now {
+  background-image: url("carbon-bg.png");
+  background-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+}
+
+.buy-now h2 {
+  margin: 0px;
+}
+
+.buy-now p {
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.buy-now button {
+  padding: 8px 25px;
+  width: 140px;
+  height: 50px;
+  background: rgb(255, 145, 0);
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  border-radius: 5px;
+}
+
+.why-buy {
+  width: 70%;
+}
+
+.why-buy h2 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.portfolio {
+  padding: 20px;
+}
+
+.portfolio h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.portfolio span {
+  font-style: italic;
+}
+
+.portfolio header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.portfolio span {
+  color: rgb(255, 145, 0);
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.articles article {
+  width: 23%;
+  padding-right: 7px;
+  display: inline-block;
+}
+
+.articles article h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.articles img {
+  width: 100%;
+  border: 5px solid rgba(128, 128, 128, 0.466);
+}
+
+.articles article p {
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+.text-right {
+  text-align: right;
+  margin-top: 25px;
+  padding: 5px 35px;
+  color: rgba(128, 128, 128, 0.377);
+  font-size: 12px;
+}
+
+#weird-line {
+  margin-right: 45px;
+  flex-grow: 1;
+  text-align: right;
+}
